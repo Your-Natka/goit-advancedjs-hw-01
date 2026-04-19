@@ -1,0 +1,11 @@
+import"./assets/modulepreload-polyfill-B5Qt9EMX.js";/* empty css                      */import{S as p}from"./assets/vendor-CgTBfC_f.js";const a=[{preview:"https://images.unsplash.com/photo-1519125323398-675f0ddb6308?w=300",original:"https://images.unsplash.com/photo-1519125323398-675f0ddb6308?w=1200",description:"Planning workspace"},{preview:"https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=300",original:"https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1200",description:"Laptop and coffee"},{preview:"https://images.unsplash.com/photo-1487014679447-9f8336841d58?w=300",original:"https://images.unsplash.com/photo-1487014679447-9f8336841d58?w=1200",description:"Modern office"},{preview:"https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=300",original:"https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=1200",description:"Meeting room"},{preview:"https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=300",original:"https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=1200",description:"Team presentation"},{preview:"https://images.unsplash.com/photo-1497215842964-222b430dc094?w=300",original:"https://images.unsplash.com/photo-1497215842964-222b430dc094?w=1200",description:"Creative workplace"},{preview:"https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=300",original:"https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=1200",description:"Office interior"},{preview:"https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=300",original:"https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=1200",description:"Developers teamwork"},{preview:"https://images.unsplash.com/photo-1496171367470-9ed9a91ea931?w=300",original:"https://images.unsplash.com/photo-1496171367470-9ed9a91ea931?w=1200",description:"Desktop workspace"}],i=document.querySelector(".gallery"),t=a.map(({preview:o,original:s,description:e})=>`
+<li class="gallery-item">
+  <a class="gallery-link" href="${s}">
+    <img
+      class="gallery-image"
+      src="${o}"
+      alt="${e}"
+    />
+  </a>
+</li>`).join("");i.innerHTML=t;new p(".gallery a",{captionsData:"alt",captionDelay:250});
+//# sourceMappingURL=1-gallery.js.map
