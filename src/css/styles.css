@@ -1,32 +1,17 @@
-* {
-  box-sizing: border-box;
-}
+/**
+  |============================
+  | include css partials with
+  | default @import url()
+  |============================
+*/
+/* Common styles */
+@import url('./reset.css');
+@import url('./base.css');
+@import url('./container.css');
+@import url('./animations.css');
 
-body {
-  margin: 0;
-  padding: 24px;
-  font-family: Montserrat, sans-serif;
-  background: #fff;
-  color: #2e2f42;
-}
-
-ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-a {
-  text-decoration: none;
-}
-
-.back-link {
-  display: inline-block;
-  margin-bottom: 24px;
-  color: #4e75ff;
-  font-weight: 500;
-}
-
-.back-link:hover {
-  text-decoration: underline;
-}
+/* Sections style */
+@import url('./header.css');
+@import url('./back-link.css');
+@import url('./gallery.css');
+@import url('./form.css');

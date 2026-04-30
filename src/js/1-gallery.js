@@ -74,11 +74,7 @@ const markup = images
     ({ preview, original, description }) => `
 <li class="gallery-item">
   <a class="gallery-link" href="${original}">
-    <img
-      class="gallery-image"
-      src="${preview}"
-      alt="${description}"
-    />
+    <img class="gallery-image" src="${preview}" alt="${description}" />
   </a>
 </li>`
   )
@@ -86,7 +82,8 @@ const markup = images
 
 gallery.innerHTML = markup;
 
-new SimpleLightbox('.gallery a', {
+const galleryModal = new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
+  captionPosition: 'bottom',
   captionDelay: 250,
 });
