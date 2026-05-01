@@ -1,0 +1,1 @@
+{"version":3,"file":"2-form.js","sources":["../src/js/2-form.js"],"sourcesContent":["const form = document.querySelector('.feedback-form');\n\nconsole.log(form);\n"],"names":["form"],"mappings":"wFAAA,MAAMA,EAAO,SAAS,cAAc,gBAAgB,EAEpD,QAAQ,IAAIA,CAAI"}
